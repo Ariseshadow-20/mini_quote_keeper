@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin:10px;
+}
+/* #mode{
+    height:30px;
+    width:90px;
+} */
+h1{
+    margin:50px;
+    color:cyan;
+}
+textarea{
+    margin:5vh 10vh 0 10vh;
+    background-color: black;
+    font-size: x-large;
+}
+textarea[placeholder]{
+    background-color: black;
+    text-align: center;
+    place-content: center;
+    /* font-weight:1000; */
+    border: 1px solid cyan;
+    color:cyan;
+}
+textarea:focus{
+    background-color: cyan;
+    color:black;
+}
+input{
+    margin:40px;
+    background-color: black;
+    color:cyan;
+    border: 1px solid cyan;
+    height:40px;
+    width:200px;
+}
+input[placeholder]{
+    background-color: black;
+    text-align: center;
+    place-content: center;
+    /* font-weight:1000; */
+    border: 1px solid cyan;
+    color:cyan;
+
+    font-size: large;
+}
+button{
+    background-color: black;
+    color:cyan;
+    border: 1px solid white;
+    height:35px;
+    width:150px;
+    font-size: large;
+}
+button:hover{
+    background-color: cyan;
+    color:black;
+}
+button:after{}
+
+
+div#savedQuo h3{
+    margin:50px;
+    font-size: xx-large;
+    color:cyan
+}
+ul{
+    color:cyan;
+}
+ul p{
+    font-size:x-large;
+}
+ul button{
+    margin-left:20px;
+    font-size: large;
+    height:0;
+    width:0;
+}
+
+@media (max-width: 600px) {
+    textarea{
+        margin:5vh 2vh 0 2vh;
+        width:96vw;
+    }
+    input{
+        width:150px;
+        height:30px;
+        margin:20px;
+    }
+    button{
+        width:120px;
+        height:30px;
+        font-size: medium;
+    }
+    div#savedQuo h3{
+        margin:20px;
+        font-size: x-large;
+    }
+    ul p{
+        font-size: large;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    textarea{
+        margin:5vh 5vh 0 5vh;
+        width:90vw;
+    }
+    input{
+        width:180px;
+        height:35px;
+        margin:30px;
+    }
+    button{
+        width:130px;
+        height:32px;
+        font-size: medium;
+    }
+    div#savedQuo h3{
+        margin:30px;
+        font-size: x-large;
+    }
+    ul p{
+        font-size: large;
+    }
+}
+
